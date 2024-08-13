@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "compile": "node compile.js",
+    "deploy": "node deploy.js",
     "test": "mocha"
   },
   "author": "",

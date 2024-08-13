@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "compile": "node compile.js",
     "test": "mocha"
   },
   "author": "",
@@ -14,5 +15,8 @@
     "mocha": "^10.4.0",
     "solc": "^0.4.17",
     "web3": "^4.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
   }
 }
